@@ -8,8 +8,10 @@
 // Add a U8G_FONT_TABLE_ENTRY for each font you want to compile into the image
 #define U8G_FONT_TABLE_ENTRY(font)
 #define U8G_FONT_TABLE                          \
-    U8G_FONT_TABLE_ENTRY(font_6x10)             \
-    U8G_FONT_TABLE_ENTRY(font_chikita)
+    U8G_FONT_TABLE_ENTRY(font_5x8r)             \
+    U8G_FONT_TABLE_ENTRY(font_6x10r)             \
+    U8G_FONT_TABLE_ENTRY(font_9x15r)             \
+    U8G_FONT_TABLE_ENTRY(font_9x15Br)             
 #undef U8G_FONT_TABLE_ENTRY
 //
 // ***************************************************************************
@@ -72,7 +74,7 @@
 //    U8G_DISPLAY_TABLE_ENTRY(uc1701_mini12864_hw_spi)            \
 
 #define U8G_DISPLAY_TABLE_SPI                                   \
-    U8G_DISPLAY_TABLE_ENTRY(ssd1306_128x64_hw_spi)              \
+//    U8G_DISPLAY_TABLE_ENTRY(ssd1306_128x64_hw_spi)              \
 
 #undef U8G_DISPLAY_TABLE_ENTRY
 //
